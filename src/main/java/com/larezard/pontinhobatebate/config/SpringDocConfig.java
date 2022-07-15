@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class OpenApiConfig {
+public class SpringDocConfig {
 
   @Bean
-  public OpenAPI pontinhoBateBateOpenAPI() {
+  public OpenAPI pontinhoBateBateAPI() {
     return new OpenAPI()
             .info(new Info()
                     .title("Pontinho Bate Bate API")
